@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Merriweather Sans', sans-serif !important;
+}
+section {
+    padding-top: 80px;
+    margin-top: -80px;
+}
+.logo{
+    width: 200px;
+}
+.logo img{
+    width: 100%;
+}
+.ff-merriweather{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.ff-libre{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.fs-30{
+    font-size: 30px !important;
+}
+
+.fs-70{
+    font-size: 70px!important;
+}
+
+.primary-color{
+    color: #5067E6 !important;
+}
+
+.fullpage{
+    height: 100vh;
+}
+
+.laptopImage{
+    width: 120%;
+}
+
+.landing-page-title{
+    font-size: 40px !important;
+    color: #5067E6 !important;
+}
+
+@media(max-width: 576px) {
+    .landing-page-title{
+        font-size: 35px !important;
+    }
+    .laptopImage{
+        width: 100%;
+        margin-top: -10%;
+    }
+}
+
+
+
+
+
+.section-title {
+    margin-bottom: 38px
+}
+
+.shadow,
+.subscription-wrapper {
+    box-shadow: 0px 15px 39px 0px rgba(8, 18, 109, 0.1) !important
+}
+
+.icon-primary {
+    color: rgb(87 77 101);
+}
+
+.icon-bg-circle {
+    position: relative
+}
+
+.icon-lg {
+    font-size: 50px
+}
+
+.icon-bg-circle::before {
+    z-index: 1;
+    position: relative
+}
+
+.icon-bg-primary::after {
+    background: #062caf !important
+}
+
+.icon-bg-circle::after {
+    content: '';
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    top: -35px;
+    left: 15px;
+    border-radius: 50%;
+    background: inherit;
+    opacity: .1
+}
+
+p,
+.paragraph {
+    font-weight: 400;
+    color: #8b8e93;
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: "Open Sans", sans-serif
+}
+
+.icon-bg-yellow::after {
+    background: #f6a622 !important
+}
+
+.icon-bg-purple::after {
+    background: #7952f5
+}
+
+.icon-yellow {
+    color: #f6a622
+}
+
+.icon-purple {
+    color: #7952f5
+}
+
+.icon-cyan {
+    color: #02d0a1
+}
+
+.icon-bg-cyan::after {
+    background: #02d0a1
+}
+
+.icon-bg-red::after {
+    background: #ff4949
+}
+
+.icon-red {
+    color: #ff4949
+}
+
+.icon-bg-green::after {
+    background: #66cc33
+}
+
+.icon-green {
+    color: #66cc33
+}
+
+.icon-bg-orange::after {
+    background: #ff7c17
+}
+
+.icon-orange {
+    color: #ff7c17
+}
+
+.icon-bg-blue::after {
+    background:rgb(87 77 101);
+}
+
+.icon-blue {
+    color:rgb(87 77 101);
+}
+
+
+/* ​.a {
+    text-decoration: none !important;
+    color: black !important;
+} */
+
+/* ​.a:hover {
+    text-decoration: none;
+    color: black;
+} */
+
+.body {
+    font-family: "Poppins";
+    background: #4a81ff;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-11 {
+    font-size: 11px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-17 {
+    font-size: 17px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-19 {
+    font-size: 19px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-21 {
+    font-size: 21px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-23 {
+    font-size: 23px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-45 {
+    font-size: 45px;
+}
+
+.fs-60 {
+    font-size: 60px;
+}
+
+.fs-45 {
+    font-size: 45px;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+
+.fs-55 {
+    font-size: 55px;
+}
+
+.fw-100 {
+    font-weight: 100;
+}
+
+.fw-200 {
+    font-weight: 200;
+}
+
+.fw-100 {
+    font-weight: 200;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.lh-56 {
+    line-height: 56px;
+}
+
+.lh-46 {
+    line-height: 46px;
+}
+
+.lh-30 {
+    line-height: 30px;
+}
+
+.color-primary {
+    color: #4a81ff;
+}
+
+.cl-black {
+    color: black;
+}
+
+.cl-white {
+    color: white
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.pl-0 {
+    padding-left: 0px;
+}
+
+.pl-120 {
+    padding-left: 120px;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.pl-31 {
+    padding-left: 31px;
+}
+
+.pl-35 {
+    padding-left: 35px;
+}
+
+.pl-40 {
+    padding-left: 40px;
+}
+
+.pl-51 {
+    padding-left: 51px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-35 {
+    padding-top: 35px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pt-11 {
+    padding-top: 11px;
+}
+
+.pt-90 {
+    padding-top: 90px;
+}
+
+.pt-0 {
+    padding-top: 0px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+
+.pr-0 {
+    padding-right: 0px;
+}
+
+.pr-40 {
+    padding-right: 40px;
+}
+
+.pr-100 {
+    padding-right: 100px;
+}
+
+.pr-56 {
+    padding-right: 56px;
+}
+
+.postion-r {
+    position: relative;
+}
+
+.border-n {
+    border: none;
+}
+
+.float-l {
+    float: left;
+}
+
+.out-no {
+    outline: none;
+}
+
+.br-50 {
+    border-radius: 50px;
+}
+
+.bg-clr-prm {
+    background-color: #4a81ff;
+}
+
+.brd-no {
+    border: none;
+}
+
+.bg-trans {
+    background: transparent;
+}
+
+.bg-clr-grey {
+    background-color: #ebebeb;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.ml--56 {
+    margin-left: -56px;
+}
+
+.ws-5 {
+    word-spacing: 5px;
+}
+
+.wd-170 {
+    width: 170px;
+}
+
+.header2 {
+    display: none;
+}
+
+.image-icon{
+    width: 100%;
+}
+.image-icon img{
+    width: 30%;
+    opacity: 0.4;
+}
+.section6{
+    margin-top: 30px;
+    background-color: #a3def8;
+}
+
+#carouselll {
+    width: 800px;
+    height: 300px;
+    display: inline-block;
+}
+
+#carouselll img {
+    display: hidden;
+    /* hide images until carousel prepares them */
+    cursor: pointer;
+    /* not needed if you wrap carousel items in links */
+    width: 220px;
+}
+
+.owl-carousel {
+    display: none!important;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .owl-carousel {
+    display: block!important;
+}
+    
+    #carouselll {
+        display: none;
+    }
+
+   
+    .owl-carousel {
+        margin-left: auto;
+        margin-right: auto;
+        display: inline;
+    }
+    .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .owl-next {
+        background: 0 0;
+        color: inherit;
+        border: none;
+        padding: 0!important;
+        font: inherit;
+        position: absolute;
+        background-repeat: no-repeat;
+        top: 50%;
+        height: 100%;
+        font-size: 40px!important;
+    }
+    .owl-prev {
+        background: 0 0;
+        color: inherit;
+        border: none;
+        padding: 0!important;
+        font: inherit;
+        position: absolute;
+        background-repeat: no-repeat;
+        top: 50%;
+        height: 100%;
+        font-size: 40px!important;
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 60%!important;
+    }
+    .slider-responsive {
+        width: 100%;
+        display: inline;
+    }
+    button.owl-next {
+        background: 0 0;
+        color: inherit;
+        border: none;
+        padding: 0!important;
+        font: inherit;
+        display: flex;
+        flex-direction: row-reverse;
+        position: absolute;
+        top: 50%;
+        right: 0;
+    }
+    button.owl-prev {
+        background: 0 0;
+        color: inherit;
+        border: none;
+        padding: 0!important;
+        font: inherit;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        outline: none;
+    }
+    .owl-nav {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: -17px;
+    }
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    
+    outline: none;
+}
+
+    
+}
+.text-color h4{
+    color:#fefefe;
+}
